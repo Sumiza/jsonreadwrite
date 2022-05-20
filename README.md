@@ -1,9 +1,12 @@
-# Load JSON Settings
+# Read Write JSON
 ### Load JSON Settings from file
+### Write JSON Settings to file
+
 
 ```
 - Read settings file from json format and return it
-- Write in any settings that are blank with option to save to file
+- Write settings file from json format
+- Interactive write in json settings with save option
 - Write out json file if file is missing
     - values
         - string, int, float
@@ -11,7 +14,7 @@
 ```
 
 ```
-pip install loadjson
+pip install jsonreadwrite
 ```
 
 Todo: Write proper documentation
